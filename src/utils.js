@@ -29,7 +29,7 @@ function getSnippetType(body, description) {
     if (body.match(/(debot|AddressInput|AmountInput|Base64|ConfirmInput|CountryInput|DateTimeInput|EncryptionBoxInput|Hex|JsonDeserialize|Media|Menu|Network|NumberInput|QRCode|Query|Sdk|SecurityCardManagement|SigningBoxInput|Terminal|UserInfo)/)) {
         return vscode.CompletionItemKind.Interface;
     }
-    if (body.match(/\b(TvmCell|TvmSlice|TvmBuilder|ExtraCurrencyCollection|address|array|vector|Type|string\d*|bytes\d*|bytes|byte|int\d*|uint\d*|bool|hash\d*)\b/)) {
+    if (body.match(/\b(TvmCell|TvmSlice|TvmBuilder|ExtraCurrencyCollection|address|array|vector|Type|string\d*|bytes\d*|bytes|byte|int\d*|varInt\d*|uint\d*|varUint\d*|bool|hash\d*)\b/)) {
         return vscode.CompletionItemKind.Variable;
     }
     if (description == 'variable') {
