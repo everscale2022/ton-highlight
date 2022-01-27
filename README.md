@@ -1,4 +1,7 @@
-# Everscale Solidity support for Visual Studio Code
+# Everscale Solidity support for Visual Studio Code (DEPRECATED)
+
+THIS EXTENSION WILL BE ARCHIVED DUE TO REBRANDING. PLEASE USE [everscale.solidity-support](https://marketplace.visualstudio.com/items?itemName=everscale.solidity-support)
+
 
 [Everscale (TON) Solidity](https://github.com/tonlabs/TON-Solidity-Compiler/blob/master/API.md) is the language used in Everscale blockchain to create smart contracts. This extension provides:
 

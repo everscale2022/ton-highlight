@@ -11,6 +11,8 @@ const MODE = { scheme: 'file', language: 'ton-solidity' }
  */
 function activate(context) {
 
+	vscode.window.showInformationMessage('DEPRECATED! DISABLE IT AND USE [everscale.solidity-support](https://marketplace.visualstudio.com/items?itemName=everscale.solidity-support)')
+
 	const signatureProvider = vscode.languages.registerSignatureHelpProvider(
 		MODE,
 		{
